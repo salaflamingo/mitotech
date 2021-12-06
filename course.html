@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MITO TECHの公式ホームページです。">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <title>MITO TECH | 学習コース</title>
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="header-wrapper">
+      <h1 class="site-title"><a href="./index.html">MITO TECH</a></h1>
+      <div class="nav-wrapper">
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="./index.html">トップ</a></li>
+            <li class="nav-item"><a href="#">学習コース</a></li>
+            <li class="nav-item"><a href="./info.html">お知らせ</a></li>
+            <li class="nav-item"><a href="#">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <button type="button" class="burger-btn js-btn">
+        <span class="btn-line"></span>
+      </button>
+      <span class="burger-musk"></span>
+    </div>
+  </header>
+
+
+
+  <!-- 上へ戻るボタン -->
+  <div id="page_top"><a href="#"></a></div>
+
+  <main class="underlayer-main course-main">
+
+    <!-- 学習コース -->
+    <h2 class="section-title section-title-text-white">学習コース</h2>
+
+    <!-- パンくずリスト -->
+    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <!-- 1つめ -->
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="./index.html">
+            <span itemprop="name">TOP</span>
+        </a>
+        <meta itemprop="position" content="1" />
+      </li>
+      <!-- 2つめ -->
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="#">
+            <span itemprop="name">学習コース</span>
+        </a>
+        <meta itemprop="position" content="2" />
+      </li>
+    </ol>
+
+    <section class="section" id="course-page">
+      <div class="course-page-wrapper">
+        <ul class="course-page-list">
+          <li class="course-page-item">
+            <figure><img src="./image/course1.jpg" alt="パソコンの写真"></figure>
+            <h3 class="course-page-title">Web制作マスターコース</h3><br>
+            <h4 class="course-page-sub-title">コース説明</h4>
+            <p class="course-page-text">本コースはプログラミングに興味がある方、初めてプログラミングに触れる方などを対象にWeb制作に使用される様々な言語の習得を目的とした講義を行います</p>
+            <h4 class="course-page-sub-title float_none">コース内容</h4>
+            <p class="course-page-text">HTML・CSS・JavaScript・jQuery・PHP・WordPress、営業方法、案件対応の流れの習得</p>
+            <div class="course-page-contact-btn">
+              <div class="btn contact-btn"><a href="./contact.html">無料体験に申し込む</a></div>
+            </div>
+          </li>
+          <li class="course-page-item">
+            <figure><img src="./image/course2.jpg" alt="タブレットと本の写真"></figure>
+            <h3 class="course-page-title">Webデザインマスターコース</h3><br>
+            <h4 class="course-page-sub-title">コース説明</h4>
+            <p class="course-page-text">本コースはWebデザインに興味がある方を対象にWebデザインに必要なデザインの知識・デザインソフトの使い方等の習得を目的とした講義を行います</p>
+            <h4 class="course-page-sub-title">コース内容</h4>
+            <p class="course-page-text">配色・心理現象などのデザインの通ずる基礎知識、Adobe系のデザインソフトの使い方の習得</p>
+            <div class="course-page-contact-btn">
+              <div class="btn contact-btn"><a href="./contact.html">無料体験に申し込む</a></div>
+            </div>
+          </li>
+          <li class="course-page-item">
+            <figure><img src="./image/course3.jpg" alt="スーツ姿の男性の写真"></figure>
+            <h3 class="course-page-title">エンジニア転職コース</h3><br>
+            <h4 class="course-page-sub-title">コース説明</h4>
+            <p class="course-page-text">本コースは既にエンジニアとしてのスキルをお持ちの方を対象に、エンジニア転職に必要な知識やポートフォリオの作成などエンジニア転職を最終目標としたコースになります</p>
+            <h4 class="course-page-sub-title">コース内容</h4>
+            <p class="course-page-text">転職先の斡旋、ポートフォリオ作成、面接練習</p>
+            <div class="course-page-contact-btn">
+              <div class="btn contact-btn"><a href="./contact.html">無料体験に申し込む</a></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <p class="footer-title"><a href="./index.html">MITO TECH</a></ｐ>
+    <p class="footer-text">&copy; MITO TECH All right reserved.</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

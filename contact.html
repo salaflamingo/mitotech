@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MITO TECHの公式ホームページです。">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <title>MITO TECH | お問い合わせ</title>
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="header-wrapper">
+      <h1 class="site-title"><a href="./index.html">MITO TECH</a></h1>
+      <div class="nav-wrapper">
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="./index.html">トップ</a></li>
+            <li class="nav-item"><a href="./course.html">学習コース</a></li>
+            <li class="nav-item"><a href="./info.html">お知らせ</a></li>
+            <li class="nav-item"><a href="#">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <button type="button" class="burger-btn js-btn">
+        <span class="btn-line"></span>
+      </button>
+      <span class="burger-musk"></span>
+    </div>
+  </header>
+
+
+
+  <!-- 上へ戻るボタン -->
+  <div id="page_top"><a href="#"></a></div>
+
+  <main class="underlayer-main course-main">
+
+    <!-- お問い合わせ -->
+    <h2 class="section-title section-title-text-white">お問い合わせ</h2>
+
+    <!-- パンくずリスト -->
+    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <!-- 1つめ -->
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="./index.html">
+            <span itemprop="name">TOP</span>
+        </a>
+        <meta itemprop="position" content="1" />
+      </li>
+      <!-- 2つめ -->
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="#">
+            <span itemprop="name">お問い合わせ</span>
+        </a>
+        <meta itemprop="position" content="2" />
+      </li>
+    </ol>
+
+    <section class="section" id="contact-page">
+      <form action="" class="form-wrapper">
+        <ul class="form-list">
+          <li class="form-item">
+            <label for="" class="form-label">お名前<span>必須</span></label>
+            <input type="text" class="input-text" placeholder="例) 鈴木 太郎">
+          </li>
+          <li class="form-item">
+            <label for="" class="form-label">メールアドレス<span>必須</span></label>
+            <input type="text" class="input-text" placeholder="例) sample@example.com">
+          </li>
+          <li class="form-item">
+            <label for="" class="form-label">お電話番号<span>必須</span></label>
+            <input type="text" class="input-text" placeholder="例) 123-456-7890">
+          </li>
+          <li class="form-item">
+            <label for="" class="form-label">ご用件<span>必須</span></label>
+            <ul class="checkbox-list">
+              <li class="checkbox-item">
+                <input type="checkbox" class="checkbox" id="service-conatct">
+                <label for="service-contact">サービスに関するお問い合わせ</label>
+              </li>
+              <li class="checkbox-item">
+                <input type="checkbox" class="checkbox" id="document">
+                <label for="document">資料請求の申し込み</label>
+              </li>
+              <li class="checkbox-item">
+                <input type="checkbox" class="checkbox" id="experience">
+                <label for="experience">無料体験の申し込み</label>
+              </li>
+              <li class="checkbox-item">
+                <input type="checkbox" class="checkbox" id="others">
+                <label for="others">その他</label>
+              </li>
+            </ul>
+          </li>
+          <li class="form-item">
+            <label for="" class="form-label">お問い合わせ内容</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </li>
+        </ul>
+        <div class="contact-page-btn">
+          <input type="submit" value="送信" class="submit-btn">
+        </div>
+      </form>
+      <p class="contact-page-text">ご不明な点がありましたらお気軽にご相談ください</p>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <p class="footer-title"><a href="./index.html">MITO TECH</a></ｐ>
+    <p class="footer-text">&copy; MITO TECH All right reserved.</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
