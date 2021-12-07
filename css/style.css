@@ -1410,6 +1410,11 @@ textarea {
     padding-left: 15px;
   }  
   /* お問い合わせ */
+  .section-title-text-white {
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 0;
+  }
   .contact-text {
     font-size: 2rem;
   }
