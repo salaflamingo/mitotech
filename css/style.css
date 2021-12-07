@@ -184,8 +184,7 @@ button {
   width: 70%;
   height: 100%;
   margin-left: auto;
-  background-position: center;
-  background-size: cover;
+  object-fit: cover;
   z-index: 2;
 }
 .slick-arrow {
@@ -1236,7 +1235,7 @@ textarea {
   .right-fv {
     width: 100%;
     position: absolute;
-    top: 85px;
+    left: 20%;
   }
   .fv-text .btn {
     width: 250px;
