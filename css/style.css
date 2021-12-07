@@ -1222,6 +1222,7 @@ textarea {
   /* ファーストビュー */
   .fv {
     margin-top: 75px;
+    min-height: 500px;
   }
   .sub-title {
     font-size: 1.6rem;
@@ -1234,9 +1235,8 @@ textarea {
   }
   .right-fv {
     width: 100%;
-    height: auto;
     position: absolute;
-    top: 140px;
+    top: 85px;
   }
   .fv-text .btn {
     width: 250px;
