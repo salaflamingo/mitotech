@@ -1405,6 +1405,7 @@ textarea {
   .accordion-container .accordion-title {
     padding: 0.625em;
     font-size: 1em;
+    padding-right: 50px;
   }
   .accordion-container .accordion-title .text-blue {
     padding-right: 10px;
