@@ -1219,23 +1219,27 @@ textarea {
   }
   
   /* ファーストビュー */
-  .fv {
+    .fv {
     margin-top: 75px;
-    min-height: 500px;
+    min-height: 50vh;
+  }
+  .fv-text {
+    left: 5%;
   }
   .sub-title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
   }
   .main-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .main-title02 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .right-fv {
-    width: 100%;
+    width: 97%;
     position: absolute;
-    left: 20%;
+    top: 10px;
   }
   .fv-text .btn {
     width: 250px;
